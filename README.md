@@ -1,13 +1,11 @@
 # NewsCrawler
 Application that crawls and scrapes large news site (e.g., NY times) and pumps data into mongodb atlas cluster.
 
-To Use: 
+-    Create new virtual enviornment (venv)
 
-(1) Create new virtual enviornment (venv)
+-   Install required dependencies (i.e., scrapy, pymongo) 
 
-(2) Install required dependencies (i.e., scrapy, pymongo) 
-
-(3) use 'scrapy startproject news' command that creates the following project structure: 
+-    use 'scrapy startproject news' command that creates the following project structure: 
 
 .
 
@@ -38,8 +36,5 @@ To Use:
     
         └── __init__.py
 
-
-(4) Replace respective files with my code
-
-(5) Run 'scrapy crawl news' command 
+-  Run 'scrapy crawl news' command 
 
