@@ -4,7 +4,9 @@ Application that crawls and scrapes large news site (e.g., NY times) and pumps d
 To Use: 
 
 (1) Create new virtual enviornment (venv)
+
 (2) Install required dependencies (i.e., scrapy, pymongo) 
+
 (3) use 'scrapy startproject news' command that creates the following project structure: 
 
 .
