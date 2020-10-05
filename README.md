@@ -10,14 +10,32 @@ To Use:
 (3) use 'scrapy startproject news' command that creates the following project structure: 
 
 .
+
+
 ├── scrapy.cfg              # deploy configuration file
+
+
 └── news                    # project's Python module
+
+
     ├── __init__.py
+    
+    
     ├── items.py            # items definition file
+    
+    
     ├── middlewares.py
+    
+    
     ├── pipelines.py        # project pipelines file
+    
+    
     ├── settings.py         # project settings
+    
+    
     └── spiders             # dir to store spiders
+    
+    
         └── __init__.py
 
 
