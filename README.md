@@ -10,28 +10,28 @@ Application that crawls and scrapes large news site (e.g., NY times) and pumps d
 .
 
 
-├── scrapy.cfg              # deploy configuration file
+├── scrapy.cfg               # deploy configuration file
 
 
-└── news                    # project's Python module
+└── news                     # project's Python module
 
 
     ├── __init__.py
     
     
-    ├── items.py            # items definition file
+    ├── items.py             # items definition file
     
     
     ├── middlewares.py
     
     
-    ├── pipelines.py        # project pipelines file
+    ├── pipelines.py         # project pipelines file
     
     
-    ├── settings.py         # project settings
+    ├── settings.py          # project settings
     
     
-    └── spiders             # dir to store spiders
+    └── spiders              # dir to store spiders
     
     
         └── __init__.py
