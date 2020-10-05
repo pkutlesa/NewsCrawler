@@ -41,5 +41,5 @@ To Use:
 
 (4) Replace respective files with my code
 
-(5) Run scrapy crawl news 
+(5) Run 'scrapy crawl news' command 
 
