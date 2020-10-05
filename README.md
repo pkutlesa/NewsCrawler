@@ -3,9 +3,10 @@ Application that crawls and scrapes large news site (e.g., NY times) and pumps d
 
 To Use: 
 
-Create new virtual enviornment (venv)
-Install required dependencies (i.e., scrapy, pymongo) 
-use 'scrapy startproject news' command that creates the following project structure: 
+(1) Create new virtual enviornment (venv)
+(2) Install required dependencies (i.e., scrapy, pymongo) 
+(3) use 'scrapy startproject news' command that creates the following project structure: 
+
 .
 ├── scrapy.cfg              # deploy configuration file
 └── news                    # project's Python module
@@ -17,7 +18,8 @@ use 'scrapy startproject news' command that creates the following project struct
     └── spiders             # dir to store spiders
         └── __init__.py
 
-Replace respective files with my code
 
-Run scrapy crawl news 
+(4) Replace respective files with my code
+
+(5) Run scrapy crawl news 
 
