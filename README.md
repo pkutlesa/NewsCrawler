@@ -1,5 +1,5 @@
 # NewsCrawler
-Application that crawls and scrapes news and pumps data into mongodb atlas cluster.
+Application that crawls and scrapes news and sends data to mongodb atlas cluster.
 
 -    Create new virtual enviornment (venv)
 
