@@ -1,5 +1,5 @@
 # NewsCrawler
-Application that crawls and scrapes large news site (e.g., NY times) and pumps data into mongodb atlas cluster.
+Application that crawls and scrapes news and pumps data into mongodb atlas cluster.
 
 -    Create new virtual enviornment (venv)
 
